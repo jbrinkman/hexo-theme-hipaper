@@ -1,4 +1,5 @@
-<% if (is_current("about", false) && theme.about_big_image){ %>
+<!-- is_current("about", false) && -->
+<% if ( theme.about_big_image){ %>
   
   <div class="site-header-image">
     <img id="originBg" width="100%" alt="Hike News" src="">
@@ -24,7 +25,7 @@
 
 
 <header id="allheader" class="site-header" role="banner" 
-  <% if (is_current("about", false) && theme.about_big_image){ %> style="width: 100%; position: absolute; top:0; background: rgba(255,255,255,.8);" <% } %> >
+  <% if (theme.about_big_image){ %> style="width: 100%; position: absolute; top:0; background: rgba(255,255,255,.65);" <% } %> >
   <div class="clearfix container">
       <div class="site-branding">
 

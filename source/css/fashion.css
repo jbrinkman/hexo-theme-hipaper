@@ -271,8 +271,8 @@ object {
 	}
 .site-description {
 	margin-bottom: 20px;
-	color: #a6a6a6;
-	font-weight: 300;
+	color: #666;
+	font-weight: 400;
 	font-family: Oswald, "Microsoft Yahei", Arial, Helvetica, sans-serif;
 	text-transform: uppercase;
 	letter-spacing: 2px;
