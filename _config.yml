@@ -60,6 +60,7 @@ search:
 
 # comment ShortName, you can choose only ONE to display.
 disqus_shortname:
+utterances:
 
 # Code Highlight theme
 # Available value:
