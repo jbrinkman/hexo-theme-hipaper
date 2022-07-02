@@ -1,0 +1,5 @@
+<% if ( page.hero ){ %> 
+<div class="site-header-attribution">Photo by <a href='<%= page.heroLink %>'><%= page.heroPhotographer %></a> on <a href='https://unsplash.com'>Unsplash</a></div>
+<% } else { %>
+<div class="site-header-attribution">Photo provided by <a href='https://unsplash.com'>Unsplash</a></div>
+<% } %>
