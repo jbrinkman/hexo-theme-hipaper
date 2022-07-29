@@ -31,16 +31,12 @@
     />
     <% } %> <%- open_graph({twitter_id: theme.twitter, fb_admins:
     theme.fb_admins, fb_app_id: theme.fb_app_id}) %> <% if (theme.rss){ %>
-    <link
-      rel="alternate"
-      href="<%- theme.rss %>"
-      title="<%= config.title %>"
-      type="application/atom+xml"
-    />
+    <link rel="alternate" href="<%- theme.rss %>" title="<%= config.title %>" type="application/rss+xml" />
     <% } %>
-    <link
-      rel="icon"
-      href="<%= config.root %><% if (theme.favicon){ %><%- theme.favicon %><% } else {%>css/images/favicon.ico<% } %>"
+    <% if (theme.atom){ %>
+    <link rel="alternate" href="<%- theme.atom %>" title="<%= config.title %>" type="application/atom+xml" />
+    <% } %>
+    <link rel="icon" href="<%= config.root %><% if (theme.favicon){ %><%- theme.favicon %><% } else {%>css/images/favicon.ico<% } %>"
     />
     <% if (config.highlight.enable){ %>
     <link
