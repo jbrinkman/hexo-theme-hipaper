@@ -30,7 +30,7 @@
       content="<%- theme.google_site_verification %>"
     />
     <% } %> <%- open_graph({twitter_id: theme.twitter, fb_admins:
-    theme.fb_admins, fb_app_id: theme.fb_app_id}) %> <% if (theme.rss){ %>
+    theme.fb_admins, fb_app_id: theme.fb_app_id, image: page.hero}) %> <% if (theme.rss){ %>
     <link rel="alternate" href="<%- theme.rss %>" title="<%= config.title %>" type="application/rss+xml" />
     <% } %>
     <% if (theme.atom){ %>
